@@ -1,0 +1,88 @@
+CHANGELOG
+~~~~~~~~~~~~~~~~
+
+
+2014_06_15
+
+General:
+
+	* Moved lua files to "modfiles" directory
+	* Created README.txt
+	* Created changelog.txt
+
+
+
+depends.txt:
+
+	* Added wool as a soft-dependency. It's a default mod in minetest_game
+	but with the new sub-games being all the rage now, who knows if wool
+	will be included in them. If not, some of the crafting recipes will
+	be broken so you'll have to use either the "give" command, play in
+	creative-mode, or have the creative priv and Unified Inventory.
+
+
+
+init.lua:
+
+	* The "tools.lua" file was removed because, other than a comment, it
+	was empty.
+	* The "tools.lua" dofile line was removed from this file.
+	* Lua files moved to "modfiles" directory and links edited accordingly.
+
+
+
+crafts.lua:
+
+	* Cheapened the crafting recipe for emergency phones. They were too
+	expensive and provided too little heart-point boost for their expense
+	that player the very, very few players who crafted them regretted it.
+	Emergency phones became one of the most *undesirable* items on our
+	server.
+	* Removed the chat messages and coord announcement. Most players, on our
+	server, don't want their coordinates broadcast and the heart-point line
+	above the hot-bar is enough to see the increase in health.
+	* The recuperative powers of the emgergency phone were too limited.
+	Couple that with the very expensive crafting recipe and the emergency
+	phone was just not worth it. So I removed the minimum heart-point
+	requirement and boosted the heart-point increase to full-recovery.
+	* Increased the light output to 14. Hey, it's an emergency! ;)-
+
+
+
+nodes.lua:
+
+	* Updated the code a bit. Replaced "tiles" with "tiles"
+	* Added sounds (default stone)
+	* Added screwdriver compatibility to manholes.
+	* Added low-level light to asphalt stuff so roads are easier to see
+	at night. Pretend it's the reflective yellow and white road paint
+	shining in your headlights.
+	* Emergency Phone - Disabled the minimal heart-point requirement,
+	increased the heart-point boost to full recovery, made them diggable by
+	all tools. In their original configuration, the recipe was too expensive
+	and the health boost to little that they quickly became an undesireable
+	item. Nobody wanted them.
+
+	POSSIBLE FUTURE CHANGES
+
+	* Make asphalt stuff even harder to dig.
+	I had considered adding all tools, breakable by	hand and making all
+	asphalt stuff easy to dig but after counciling with one of our
+	moderators it seemed better to leave the asphalt difficult to dig as a
+	way to annoy griefers. Road builders on our server will have supplies
+	to offset the extra difficulty of digging asphalt stuff. Roadwork is
+	very important and needs to be encouraged. Making asphalt stuff
+	difficult to dig may go against that encouragement. Roads are difficult
+	to set protection on because they cut through so many players areas
+	and builds. If the asphalt stuff were made as hard as possible, that
+	would at least slow-up any attempts to grief the roads by digging them.
+	Time and experimentation will tell. Eventually we'll find the right
+	combination mateiral hardness and ease of use. To make any node as
+	difficult as possible to dig, limit the groups to only one tool and
+	increase the level of difficulty to 1.
+
+settings.lua:
+
+	* Removed the heart-point settings since they are hard-set in the nodes'
+	definition now.
+
