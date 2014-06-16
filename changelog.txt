@@ -35,7 +35,7 @@ crafts.lua:
 
 	* Cheapened the crafting recipe for emergency phones. They were too
 	expensive and provided too little heart-point boost for their expense
-	that player the very, very few players who crafted them regretted it.
+	that the very, very few players who crafted them regretted it.
 	Emergency phones became one of the most *undesirable* items on our
 	server.
 	* Removed the chat messages and coord announcement. Most players, on our
