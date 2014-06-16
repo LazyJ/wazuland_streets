@@ -35,7 +35,7 @@ crafts.lua:
 
 	* Cheapened the crafting recipe for emergency phones. They were too
 	expensive and provided too little heart-point boost for their expense
-	that player the very, very few players who crafted them regretted it.
+	that the very, very few players who crafted them regretted it.
 	Emergency phones became one of the most *undesirable* items on our
 	server.
 	* Removed the chat messages and coord announcement. Most players, on our
@@ -51,11 +51,11 @@ crafts.lua:
 
 nodes.lua:
 
-	* Updated the code a bit. Replaced "tiles" with "tiles"
+	* Updated the code a bit. Replaced "tile_images" with "tiles"
 	* Added sounds (default stone)
 	* Added screwdriver compatibility to manholes.
 	* Added low-level light to asphalt stuff so roads are easier to see
-	at night. Pretend it's the reflective yellow and white road paint
+	at night. Pretend it's the reflective white road paint
 	shining in your headlights.
 	* Emergency Phone - Disabled the minimal heart-point requirement,
 	increased the heart-point boost to full recovery, made them diggable by
