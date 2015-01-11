@@ -3,19 +3,18 @@
 This version of 'Streets' is based off of one of webdesigner97's releases
 sometime around 2013_04.
 
-At LinuxGaming.us, we have been using the same release of "Streets" for over a
-year. With a few little tweaks, this older, simpler version has met and
-exceeded all our road-making needs, then and now.
+At LinuxGaming.us, we have been using the same release of "Streets" since the
+spring of 2013. With a few little tweaks, this smaller, simpler version has met
+and exceeded all our road-making needs, then and now.
 
-I'm publishing this fork of "Streets":
-	1. so players can have access to it without having to download a
-	multi-gigabyte backup copy of Wazuland2,
-	2. maybe there are other servers and players who want basic, modern-
-	looking roads for their worlds without a lot of extras,
-	3. to get a little more experience with how GitHub works.
+Maybe there are other servers and players who would like to have basic, modern-
+looking roads for their worlds without a lot of extras. If so, this mod may just
+be the ticket.
 
-The newer versions of "Streets" are feature-rich, excellent, and I encourage
-you to check them out:
+The newer versions of "Streets" are feature-rich and excellent. If you want to
+create super highways and have various forms of infrastructure, I encourage
+you to check the newer, full-featured versions of webdesigner97's latest work
+on "Streets":
 
 * Minetest.net
 http://forum.minetest.net/viewtopic.php?id=2984
@@ -42,7 +41,7 @@ Install:
 	../minetest/worlds/yourworld'sname/worldmods/
 	or
 	../minetest/mods/
-	* If you put "snow" in the ../minetest/mods/ directory, either
+	* If you put "streets" in the ../minetest/mods/ directory, either
 	enable the mod from within Minetest's "Configure" button
 	(main menu, bottom right) or by adding this line to the
 	world's "world.mt" file:
